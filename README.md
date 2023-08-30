@@ -27,3 +27,6 @@ For implementation, the following points should be considered:
 - To detect the car in any clean place, use the PIR sensor and set its input (testPin) to 0 or 1.
 - Assume that only a car may pass through a parking lot and does not intend to park. It is obvious that the parking light should only be turned on sometimes a car passes through the parking lot. We should be able to distinguish who just passed the parking lot and who wants to park there. According to the mentioned explanations, design this mechanism and solve the problem.
 - The user must use the keypad to specify that he is entering or leaving the parking lot.
+
+## Smart Store
+This exercise aims to design an intelligent system for the store. This system includes fire extinguishing and carbon monoxide gas detection. You can use the Flame Sensor to extinguish the fire. If a fire is detected, the buzzer sounds, and the valves (servo motor) must be fully opened for 10 seconds and then closed. You can also use a gas sensor to detect carbon monoxide gas. The buzzer will sound if carbon monoxide gas is detected, and the windows (servo motor) should be opened. When the gas sensor no longer detects carbon monoxide, the windows will be closed, and the buzzer will be turned off.
